@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    generate-ddl: "false"
+    properties:
+      hibernate:
+        use_sql_comments: 'ture'
+        format_sql: 'true'
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.
